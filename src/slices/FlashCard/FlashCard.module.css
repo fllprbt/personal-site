@@ -1,0 +1,35 @@
+.card {
+    position: relative;
+    background-color: #f8f8f8;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadows) rgba(var(--shadows-rgba));
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 30px 0;
+  }
+  
+  .icon {
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+    margin: 0 10px;
+
+  }
+
+  .icon:hover {
+    transform: scale(1.2);
+  }
+  
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+  }

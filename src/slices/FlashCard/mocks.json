@@ -1,0 +1,62 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "John Doe",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Senior Dev",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"email": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "test@test.gmail.com"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"linkIconName",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "github"
+						}
+					],
+					[
+						"linkIconUrl",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "feet",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]

@@ -1,2 +1,3 @@
 # site
-Personal site 
+
+Personal site (NextJS + Prismic)

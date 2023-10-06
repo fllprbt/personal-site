@@ -1,0 +1,59 @@
+{
+  "id": "flashCard",
+  "type": "SharedSlice",
+  "name": "FlashCard",
+  "description": "FlashCard",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "title",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "heading1,heading2,heading3,strong,em"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "description",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "multi": "paragraph,preformatted,heading4,heading5,heading6,strong,em,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "email": {
+          "type": "Text",
+          "config": {
+            "label": "email",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "linkIconName": {
+          "type": "Text",
+          "config": {
+            "label": "linkIconName",
+            "placeholder": ""
+          }
+        },
+        "linkIconUrl": {
+          "type": "Text",
+          "config": {
+            "label": "linkIconUrl",
+            "placeholder": ""
+          }
+        }
+      }
+    }
+  ]
+}
